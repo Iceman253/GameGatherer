@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" fill="none">
+  <rect width="200" height="300" fill="#0d0f12"/>
+  <!-- subtle grid pattern -->
+  <rect width="200" height="300" fill="url(#grid)" opacity="0.15"/>
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#7c5cfc" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <!-- controller icon centered -->
+  <g transform="translate(60, 115)" opacity="0.4">
+    <rect x="0" y="20" width="80" height="40" rx="20" fill="#7c5cfc"/>
+    <!-- d-pad -->
+    <rect x="12" y="28" width="8" height="24" rx="2" fill="#0d0f12"/>
+    <rect x="6" y="34" width="20" height="12" rx="2" fill="#0d0f12"/>
+    <!-- buttons -->
+    <circle cx="56" cy="32" r="4" fill="#0d0f12"/>
+    <circle cx="64" cy="40" r="4" fill="#0d0f12"/>
+    <circle cx="56" cy="48" r="4" fill="#0d0f12"/>
+    <circle cx="48" cy="40" r="4" fill="#0d0f12"/>
+    <!-- grips -->
+    <ellipse cx="15" cy="56" rx="10" ry="8" fill="#7c5cfc"/>
+    <ellipse cx="65" cy="56" rx="10" ry="8" fill="#7c5cfc"/>
+    <!-- shoulder buttons -->
+    <rect x="2" y="16" width="20" height="8" rx="4" fill="#5a3fc0"/>
+    <rect x="58" y="16" width="20" height="8" rx="4" fill="#5a3fc0"/>
+  </g>
+  <!-- label -->
+  <text x="100" y="220" text-anchor="middle" fill="#4a5568" font-family="system-ui,sans-serif" font-size="11">No cover art</text>
+</svg>

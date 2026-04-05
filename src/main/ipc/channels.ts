@@ -1,0 +1,21 @@
+export const IPC_CHANNELS = {
+  GET_GAMES: 'games:get-all',
+  LAUNCH_GAME: 'games:launch',
+  OPEN_STORE_PAGE: 'games:open-store-page',
+  REFRESH_GAMES: 'games:refresh',
+  COVER_UPDATE: 'games:cover-update',
+  GET_METADATA: 'games:get-metadata',
+  STORE_RECLASSIFY: 'games:store-reclassify',
+  GET_CONFIG: 'config:get',
+  SAVE_CONFIG: 'config:save',
+  TEST_IGDB: 'config:test-igdb',
+  HIDE_GAME: 'games:hide',
+  UNHIDE_GAME: 'games:unhide',
+  PICK_THUMBNAIL: 'games:pick-thumbnail',
+  WINDOW_APPLY_SIZE: 'window:apply-size',
+  WINDOW_MINIMIZE: 'window:minimize',
+  WINDOW_MAXIMIZE: 'window:maximize',
+  WINDOW_CLOSE: 'window:close',
+  FETCH_STORE_DESC: 'games:fetch-store-desc',
+  TEST_STEAM: 'config:test-steam'
+} as const
