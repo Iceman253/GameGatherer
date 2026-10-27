@@ -3,3 +3,5 @@ out
 dist
 *.tsbuildinfo
 .claude/
+# Build output and IDE files
+.claude/settings.local.json
